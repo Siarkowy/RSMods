@@ -30,6 +30,8 @@
   artifacts:
   - path: 'Installer/bin/Release/RS2014-Mod-Installer.exe'
     name: Installer
+  - path: '**/xinput1_3.dll'
+    name: DLL
   deploy:
   - provider: GitHub
     tag: RSModsInstaller-v$(releaseVersion)_OnCommit
