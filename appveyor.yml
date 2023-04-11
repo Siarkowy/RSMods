@@ -1,8 +1,5 @@
 # configuration for "develop" branch
 -
-  branches:
-    only:
-    - develop
   image: Visual Studio 2019
   configuration: Release
   before_build:
